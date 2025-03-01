@@ -2,7 +2,7 @@ import { FaExclamationTriangle } from "react-icons/fa";
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchMatchData } from '../../store/matchSlice/matchSlice'
-import MatchesCard from '../simple-comp/matchesCard'
+import MatchesCard from '../simple-comp/MatchesCard'
 import MatchesLoad from '../simple-comp/MatchesLoad'
 
 const Content = () => {
