@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className='flex justify-between items-center gap-1 my-[30px]'>
             <div className="flex justify-start items-center gap-2">
-                <div className='font-bold italic font-exo text-[20px]'>
+                <div className='font-bold italic font-exo text-[20px] hidden sm:block'>
                     Match Tracker
                 </div>
                 <div>
