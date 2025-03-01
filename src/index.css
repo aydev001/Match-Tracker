@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-exo : "Exo 2", serif;
+  --font-inter : "Inter", serif
+}
+
+.alert-triagle {
+  @apply px-[20px] py-[7px] bg-gray-800 rounded-sm flex justify-between items-center gap-1 text-[14px] shadow-sm font-medium font-inter
+}
+
+.btn-primary {
+  @apply px-[20px] py-[7px] bg-red-500 text-white font-semibold flex justify-between items-center gap-1 rounded-sm shadow-sm text-[14px] font-inter hover:bg-red-600 active:bg-red-400 active:shadow-none duration-200 cursor-pointer
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #7878784c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb6a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999898;
+}
